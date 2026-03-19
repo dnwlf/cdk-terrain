@@ -81,11 +81,18 @@ Ensuring your PR titles follow this format helps us quickly identify the purpose
 
 #### Affected Component:
 
-- cli
-- lib
-- hcl2cdk
-- provider-generator
-- examples
+- **cli** — CLI tool (`cdktn-cli`)
+- **lib** — Core library (`cdktn`)
+- **hcl2cdk** — HCL to CDK converter
+- **hcl2json** — WASM-based HCL parser
+- **provider-generator** — Provider binding generator
+- **examples** — Example projects
+- **tests** — Test infrastructure
+- **docs** — Documentation
+- **readme** — README updates
+- **release** — Release process and configuration
+- **deps** — Dependency updates
+- **gha** — GitHub Actions workflows
 
 ## Prerequisites
 
