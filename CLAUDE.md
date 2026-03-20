@@ -2,22 +2,34 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Current Priority: CDKTN Rename (Release 1)
+## Prerequisites & Setup
 
-See `RFCs/RENAME-PLAN.md` for the active rename effort from `cdktf` to `cdktn`. Key constraints:
+Tools managed by [mise](https://mise.jdx.dev/) (see `.mise.toml`): Node 20.20, Go 1.18, Python 3.11, Java corretto-20, .NET 6.0, Terraform 1.7.5.
 
-- Package names change (`@cdktf/*` → `@cdktn/*`, `cdktf` → `cdktn`, `cdktf-cli` → `cdktn-cli`)
-- Internal symbols and logical IDs remain unchanged (`Symbol.for("cdktf/*")`, `__cdktf_*`)
-- Legacy config/env keys still supported (`cdktf.json`, `CDKTF_*`)
-- Prebuilt providers require `cdktn` as peer dependency (major bump)
+Additional tools **not** managed by mise (install manually):
+
+```bash
+# macOS
+brew install maven rsync
+
+# Enable corepack for yarn (pinned to 1.18.0 via package.json)
+corepack enable
+```
+
+Then:
+
+```bash
+yarn install
+```
+
+See `CONTRIBUTING.md` for full details including Docker-based development and language-specific setup.
 
 ## Build & Development
 
 ```bash
-yarn install          # Install dependencies
-yarn build            # Build all packages
+yarn build            # Build all packages (tsc + jsii)
 yarn watch            # Watch mode for development
-yarn package          # Build + create distributable packages
+yarn package          # Build + create distributable packages (requires mvn, rsync)
 ```
 
 ### Testing
@@ -26,22 +38,28 @@ yarn package          # Build + create distributable packages
 yarn test             # Run all unit tests
 yarn test:update      # Update snapshots
 
-# Integration tests (require yarn package first)
+# Some unit tests require dist packages to be built first (they auto-skip if missing):
+yarn package
+yarn test
+
+# Integration tests (always require yarn package first)
 yarn package
 yarn integration                              # All integration tests
 yarn integration:single -- typescript/synth-app  # Single test
 yarn integration:update                       # Update integration snapshots
 ```
 
+On Linux with limited tmpfs: `TMPDIR=/var/tmp yarn test`
+
 ### Running CLI locally
 
 ```bash
 # After yarn watch, use the local CLI directly:
-./packages/cdktf-cli/bundle/bin/cdktf <command>
+./packages/cdktn-cli/bundle/bin/cdktn <command>
 
 # Or link globally:
 yarn link-packages
-cdktf --version  # Should show 0.0.0
+cdktn --version  # Should show 0.0.0
 ```
 
 ### Language-specific testing
@@ -56,20 +74,20 @@ yarn integration:java
 
 ## Package Architecture
 
-This is a **JSII monorepo** that compiles TypeScript to Python, Go, Java, and C#.
+This is a **JSII monorepo** (Lerna + Yarn workspaces) that compiles TypeScript to Python, Go, Java, and C#.
 
 ### Core Packages
 
-| Package                              | Purpose                                                                     |
-| ------------------------------------ | --------------------------------------------------------------------------- |
-| `packages/cdktf`                     | Core library - defines constructs (TerraformStack, TerraformResource, etc.) |
-| `packages/cdktf-cli`                 | CLI entry point - thin wrapper around cli-core, uses esbuild                |
-| `packages/@cdktf/cli-core`           | CLI implementation - commands, project management, Terraform execution      |
-| `packages/@cdktf/provider-generator` | Generates TypeScript bindings from Terraform provider schemas               |
-| `packages/@cdktf/hcl2cdk`            | Converts HCL to CDK code (`cdktf convert`)                                  |
-| `packages/@cdktf/hcl2json`           | WASM-based HCL parser (Go compiled to WASM)                                 |
-| `packages/@cdktf/provider-schema`    | Fetches and parses Terraform provider schemas                               |
-| `packages/@cdktf/commons`            | Shared utilities across packages                                            |
+| Package | Purpose |
+| --- | --- |
+| `packages/cdktn` | Core library — constructs (TerraformStack, TerraformResource, etc.). Uses JSII. |
+| `packages/cdktn-cli` | CLI entry point — thin wrapper around cli-core, uses esbuild (transpile only, no type checking; tsc runs as pre-commit hook) |
+| `packages/@cdktn/cli-core` | CLI implementation — commands, project management, Terraform execution |
+| `packages/@cdktn/provider-generator` | Generates TypeScript bindings from Terraform provider schemas |
+| `packages/@cdktn/provider-schema` | Fetches and parses Terraform provider schemas |
+| `packages/@cdktn/hcl2cdk` | Converts HCL to CDK code (`cdktn convert`) |
+| `packages/@cdktn/hcl2json` | WASM-based HCL parser (Go compiled to WASM) |
+| `packages/@cdktn/commons` | Shared utilities across packages |
 
 ### Key Flows
 
@@ -81,18 +99,18 @@ This is a **JSII monorepo** that compiles TypeScript to Python, Go, Java, and C#
 
 ### JSII Considerations
 
-- Core `cdktf` library uses JSII for multi-language support
+- Core `cdktn` library uses JSII for multi-language support
 - Changes to public APIs affect all language bindings
 - Run `yarn package` to generate all language distributions in `dist/`
 - JSII metadata lives in `.jsii` files
 
 ## Feature Flags
 
-Feature flags in `packages/cdktf/lib/features.ts` enable breaking behavior changes behind opt-in flags. New projects get flags enabled via `cdktf.json`. Add new flags to `FUTURE_FLAGS` map.
+Feature flags in `packages/cdktn/lib/features.ts` enable breaking behavior changes behind opt-in flags. New projects get flags enabled via `cdktf.json`. Add new flags to `FUTURE_FLAGS` map.
 
 ## Constitution
 
-See `.specify/memory/constitution.md` for project principles (YAGNI, KISS, cross-language parity, etc.).
+See `.specify/memory/constitution.md` for project principles. Priority order: YAGNI > KISS > UX Consistency > Test Coverage. Small PRs reviewable in <30 minutes preferred.
 
 ## Commit Style
 
@@ -102,18 +120,30 @@ Use [conventional commits](https://www.conventionalcommits.org/):
 - `fix(cli):` / `fix(lib):`
 - `chore:` for docs, CI, non-code changes
 
+Allowed scopes: `cli`, `lib`, `hcl2cdk`, `hcl2json`, `provider-generator`, `examples`, `tests`, `docs`, `readme`, `release`, `deps`, `gha`
+
+## CI Labels
+
+PR labels control which CI jobs run:
+
+- `ci/skip-integration`, `ci/skip-provider-integration`, `ci/skip-unit`, `ci/skip-examples` — skip test suites
+- `ci/unit-only` — skip integration/provider-integration/examples
+- `ci/run-unit/<package>` — trigger specific package unit tests (e.g. `ci/run-unit/cdktn`)
+
 ## Debugging
 
 ```bash
-CDKTF_LOG_LEVEL=debug cdktf synth  # Verbose CDKTF output
+CDKTF_LOG_LEVEL=debug cdktn synth  # Verbose CDKTN output
 JSII_DEBUG=1 yarn build            # JSII debug output
 ```
 
-## Active Technologies
+## Notable changes
 
-- TypeScript 5.4.5 (strict mode, target ES2018, CommonJS) (001-cdktn-package-rename)
-- N/A (no database; file-based config via `cdktf.json`) (001-cdktn-package-rename)
+### CDKTN Rename
 
-## Recent Changes
+This project was renamed from `cdktf` to `cdktn`. Key constraints:
 
-- 001-cdktn-package-rename: Added TypeScript 5.4.5 (strict mode, target ES2018, CommonJS)
+- Package names change (`@cdktf/*` → `@cdktn/*`, `cdktf` → `cdktn`, `cdktf-cli` → `cdktn-cli`)
+- Internal symbols and logical IDs remain unchanged (`Symbol.for("cdktf/*")`, `__cdktf_*`)
+- Legacy config/env keys still supported (`cdktf.json`, `CDKTF_*`)
+- Prebuilt providers require `cdktn` as peer dependency (major bump)

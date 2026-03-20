@@ -96,7 +96,7 @@
         "**/jsii": "5.8.9"
     },
     "lint-staged": {
-        "**/*.{ts,tsx,js,css,md}": "prettier --write",
+        "!(.claude|.agents|.specledger|specledger)/**/*.{ts,tsx,js,css,md}": "prettier --write",
         "examples/**": "yarn lint:examples"
     },
     "eslintConfig": {

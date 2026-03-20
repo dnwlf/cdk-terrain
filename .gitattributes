@@ -1,2 +1,8 @@
 docs/** linguist-documentation
 website/** linguist-documentation
+
+# >>> specledger-generated
+# Auto-managed by specledger - do not edit this section
+specledger/*/issues.jsonl linguist-generated=true
+specledger/*/tasks.md linguist-generated=true
+# <<< specledger-generated

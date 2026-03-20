@@ -1,0 +1,16 @@
+# SpecLedger mise configuration
+# Issue tracking is now built into sl CLI (sl issue commands)
+
+[tools]
+node = "20.20"
+python = '3.11'
+go = '1.18'
+java = "prefix:corretto-20"
+dotnet = "6.0"  # Match jsii-superchain DOTNET_CHANNEL
+"pipx:pipenv" = "latest"
+
+terraform = "1.7.5"
+"github:specledger/specledger" = "1.0.56"
+
+# # Works on Linux (not MacOS)
+# "ubi:getsentry/sentry-cli" = "3.1.0"

@@ -1,5 +1,8 @@
 .claude/
+.agents/
 .specify/
+.specledger/
+specledger/
 
 # Jest inline snapshot tests (formatted by Prettier v2)
 packages/@cdktn/cli-core/src/test/lib/cdktf-project.test.ts
