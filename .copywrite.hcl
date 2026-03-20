@@ -9,6 +9,10 @@ project {
     ".github/ISSUE_TEMPLATE/*.yml",
     "packages/@cdktn/cli-core/templates/**",
     "test/verdaccio.yaml",
-    "test/local-registry.sh"
+    "test/local-registry.sh",
+    "specledger/**",
+    ".specledger/**",
+    ".agents/**",
+    ".claude/**"
   ]
 }
