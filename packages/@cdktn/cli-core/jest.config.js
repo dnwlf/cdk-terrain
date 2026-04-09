@@ -3,18 +3,14 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
+const esmPreset = require("../../../jest.preset");
+
 module.exports = {
+  ...esmPreset,
   roots: [
     "<rootDir>"
   ],
   testMatch: ['**/*.test.ts', '**/*.test.tsx'],
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.js$": ["babel-jest", { plugins: ["@babel/plugin-transform-modules-commonjs"] }]
-  },
-  transformIgnorePatterns: [
-    "/node_modules/(?!(archiver-node|is-stream|zip-stream|compress-commons|crc32-stream|minimatch|balanced-match|brace-expansion)/)"
-  ],
   moduleFileExtensions: [
     "js",
     "ts",
