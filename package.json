@@ -64,9 +64,9 @@
             ".yalc/@*/*"
         ],
         "nohoist": [
-            "archiver",
-            "**/archiver",
-            "**/archiver/**",
+            "archiver-node",
+            "**/archiver-node",
+            "**/archiver-node/**",
             "json-stable-stringify",
             "**/json-stable-stringify",
             "**/json-stable-stringify/**",

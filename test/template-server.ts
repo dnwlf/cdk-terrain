@@ -1,6 +1,6 @@
 // Copyright (c) HashiCorp, Inc
 // SPDX-License-Identifier: MPL-2.0
-import * as archiver from "archiver";
+import { ZipArchive } from "archiver-node";
 import * as http from "http";
 import { AddressInfo } from "net";
 
@@ -25,7 +25,7 @@ export class TemplateServer {
       "Content-Type": "application/zip",
     });
 
-    const archive = archiver("zip");
+    const archive = new ZipArchive();
     archive.pipe(res);
     archive.directory(this.srcDirectory, false);
     archive.finalize();

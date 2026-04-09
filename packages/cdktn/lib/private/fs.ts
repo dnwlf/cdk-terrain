@@ -3,7 +3,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import * as crypto from "crypto";
-import * as archiver from "archiver";
+import { ZipArchive } from "archiver-node";
 import { assetCanNotCreateZipArchive } from "../errors";
 import { execSync } from "child_process";
 
@@ -66,7 +66,7 @@ async function runArchive(src: string, dest: string) {
   return new Promise<void>((resolve, reject) => {
     const output = fs.createWriteStream(dest);
 
-    const archive = archiver("zip", {
+    const archive = new ZipArchive({
       zlib: { level: 9 }, // Sets the compression level.
     });
     archive.pipe(output);

@@ -6,5 +6,3 @@ declare module 'child_process' {
         signal?: AbortSignal;
     }
 }
-
-declare module "archiver";
