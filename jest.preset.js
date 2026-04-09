@@ -1,4 +1,9 @@
 /**
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
+/**
  * Shared Jest preset for handling ESM-only dependencies.
  *
  * archiver-node and several of its transitive dependencies ship as
