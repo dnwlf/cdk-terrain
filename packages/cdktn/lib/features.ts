@@ -22,4 +22,13 @@
  *
  * Tests must cover the default (disabled) case and the future (enabled) case.
  */
-export const FUTURE_FLAGS = {};
+/**
+ * When enabled, synthesis will throw an error if any constructs are scoped
+ * directly to the App instead of to a TerraformStack.
+ */
+export const FAIL_ON_CONSTRUCTS_OUTSIDE_OF_STACKS =
+  "failOnConstructsOutsideOfStacks";
+
+export const FUTURE_FLAGS = {
+  [FAIL_ON_CONSTRUCTS_OUTSIDE_OF_STACKS]: "true",
+};
