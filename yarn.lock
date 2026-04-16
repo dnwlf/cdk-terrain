@@ -2680,13 +2680,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/yazl@3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@types/yazl/-/yazl-3.3.1.tgz#01654f3e98e35b67aab89ece3491993e5b00e114"
-  integrity sha512-DIWfCKpsTp6hE5BDBHV3+fIL/bLUF9Bv13iDrWnMlmhQpH67buNvI291ZauQ1xcccxK3FqQ9honnXpq4R8NMuQ==
-  dependencies:
-    "@types/node" "*"
-
 "@types/yoga-layout@1.9.2":
   version "1.9.2"
   resolved "https://registry.npmjs.org/@types/yoga-layout/-/yoga-layout-1.9.2.tgz#efaf9e991a7390dc081a0b679185979a83a9639a"

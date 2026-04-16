@@ -3,7 +3,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import * as crypto from "crypto";
-import { ZipFile } from "yazl";
 import { assetCanNotCreateZipArchive } from "../errors";
 import { execSync } from "child_process";
 
@@ -66,7 +65,7 @@ export function archiveSync(src: string, dest: string) {
  * @param dir - absolute path of the directory to walk
  * @param prefix - the path prefix for entries within the zip (empty string for root)
  */
-function addDirectory(zip: ZipFile, dir: string, prefix: string) {
+function addDirectory(zip: any, dir: string, prefix: string) {
   for (const entry of fs.readdirSync(dir)) {
     const fullPath = path.join(dir, entry);
     const zipPath = prefix ? `${prefix}/${entry}` : entry;
@@ -84,6 +83,8 @@ function addDirectory(zip: ZipFile, dir: string, prefix: string) {
  * @param dest
  */
 async function runArchive(src: string, dest: string) {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { ZipFile } = require("yazl");
   const zip = new ZipFile();
 
   addDirectory(zip, src, "");
