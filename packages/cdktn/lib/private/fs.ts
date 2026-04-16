@@ -3,7 +3,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import * as crypto from "crypto";
-import * as archiver from "archiver";
 import { assetCanNotCreateZipArchive } from "../errors";
 import { execSync } from "child_process";
 
@@ -37,7 +36,9 @@ export function copySync(src: string, dest: string) {
   function walkSubfolder(p: string) {
     const sourceDir = path.resolve(src, p);
     fs.mkdirSync(path.resolve(dest, p), { recursive: true });
-    fs.readdirSync(sourceDir).forEach((item) => copyItem(path.join(p, item)));
+    fs.readdirSync(sourceDir).forEach((item: string) =>
+      copyItem(path.join(p, item)),
+    );
   }
 
   walkSubfolder(".");
@@ -58,28 +59,43 @@ export function archiveSync(src: string, dest: string) {
 }
 
 /**
+ * Recursively adds all files under dir to the zip, preserving
+ * relative paths
+ * @param zip - the instance to add entries to
+ * @param dir - absolute path of the directory to walk
+ * @param prefix - the path prefix for entries within the zip (empty string for root)
+ */
+function addDirectory(zip: any, dir: string, prefix: string) {
+  for (const entry of fs.readdirSync(dir)) {
+    const fullPath = path.join(dir, entry);
+    const zipPath = prefix ? `${prefix}/${entry}` : entry;
+    if (fs.statSync(fullPath).isDirectory()) {
+      addDirectory(zip, fullPath, zipPath);
+    } else {
+      zip.addFile(fullPath, zipPath, { compress: true, compressionLevel: 9 });
+    }
+  }
+}
+
+/**
  *
  * @param src
  * @param dest
  */
 async function runArchive(src: string, dest: string) {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { ZipFile } = require("yazl");
+  const zip = new ZipFile();
+
+  addDirectory(zip, src, "");
+  zip.end();
+
   return new Promise<void>((resolve, reject) => {
     const output = fs.createWriteStream(dest);
-
-    const archive = archiver("zip", {
-      zlib: { level: 9 }, // Sets the compression level.
-    });
-    archive.pipe(output);
-
-    archive.on("error", (err: Error) => {
-      reject(err);
-    });
-    output.on("close", () => {
-      resolve();
-    });
-
-    archive.directory(src, false);
-    archive.finalize();
+    zip.outputStream.pipe(output);
+    output.on("close", resolve);
+    output.on("error", reject);
+    zip.outputStream.on("error", reject);
   });
 }
 
