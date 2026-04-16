@@ -64,15 +64,18 @@
             ".yalc/@*/*"
         ],
         "nohoist": [
-            "archiver",
-            "**/archiver",
-            "**/archiver/**",
             "json-stable-stringify",
             "**/json-stable-stringify",
             "**/json-stable-stringify/**",
             "semver",
             "**/semver",
-            "**/semver/**"
+            "**/semver/**",
+            "yazl",
+            "**/yazl",
+            "**/yazl/**",
+            "@types/yazl",
+            "**/@types/yazl",
+            "**/@types/yazl/**"
         ]
     },
     "devDependencies": {

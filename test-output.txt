@@ -1,0 +1,1617 @@
+yarn run v1.22.22
+$ yarn lint:workspace && yarn lint:prettier
+$ eslint --flag v10_config_lookup_from_file .
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/aspect-tagging.ts
+  20:23  warning  'tagsToAdd' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/aspect-validation.ts
+  11:23  warning  'prefix' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/constructs/docker-backend.ts
+  9:12  warning  'props' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/constructs/kubernetes-web-app-deployment.ts
+  9:12  warning  'props' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/constructs/vpc.ts
+  9:12  warning  'props' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/data-sources.ts
+  31:11  warning  'region' is assigned a value but never used  no-unused-vars
+  31:11  warning  'region' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/documentation/providers.ts
+  5:45  warning  'Token' is defined but never used  no-unused-vars
+  5:45  warning  'Token' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/examples/typescript/ucloud/main.ts
+  18:9  warning  'images' is never reassigned. Use 'const' instead  prefer-const
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/cdktf-config.ts
+  33:23  warning  'cdktfConfigPath' is defined but never used  no-unused-vars
+  36:25  warning  A `require()` style import is forbidden      @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/cdktf-project-io-handler.ts
+  87:45  warning  'msg' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/cdktf-project.ts
+  122:8   warning  'item' is defined but never used                                                                         no-unused-vars
+  141:14  warning  'update' is defined but never used                                                                       no-unused-vars
+  142:12  warning  'log' is defined but never used                                                                          no-unused-vars
+  154:22  warning  'update' is defined but never used                                                                       no-unused-vars
+  155:20  warning  'log' is defined but never used                                                                          no-unused-vars
+  163:47  warning  'stackName' is defined but never used                                                                    no-unused-vars
+  164:15  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  204:33  warning  'update' is defined but never used                                                                       no-unused-vars
+  205:24  warning  'updateToSend' is defined but never used                                                                 no-unused-vars
+  215:14  warning  '_' is defined but never used                                                                            no-unused-vars
+  253:39  warning  'updateToSend' is defined but never used                                                                 no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/cdktf-stack.ts
+  113:5   warning  'phase' is defined but never used    no-unused-vars
+  114:5   warning  'filter' is defined but never used   no-unused-vars
+  115:9   warning  'message' is defined but never used  no-unused-vars
+  115:26  warning  'isError' is defined but never used  no-unused-vars
+  123:5   warning  'update' is defined but never used   no-unused-vars
+  130:12  warning  'log' is defined but never used      no-unused-vars
+  218:7   warning  'message' is defined but never used  no-unused-vars
+  218:24  warning  'isError' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/dependencies/dependency-manager.ts
+   53:21  warning  'version' is defined but never used           no-unused-vars
+  140:13  warning  'cdktfVersion' is defined but never used      no-unused-vars
+  141:22  warning  'projectDirectory' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/dependencies/package-manager.ts
+   96:34  warning  'workingDirectory' is defined but never used  no-unused-vars
+  122:5   warning  'packageName' is defined but never used       no-unused-vars
+  123:5   warning  'packageVersion' is defined but never used    no-unused-vars
+  124:5   warning  'silent' is defined but never used            no-unused-vars
+  129:5   warning  'packageName' is defined but never used       no-unused-vars
+  130:5   warning  'packageVersion' is defined but never used    no-unused-vars
+  182:5   warning  '_packageName' is defined but never used      no-unused-vars
+  182:5   warning  '_packageName' is defined but never used      @typescript-eslint/no-unused-vars
+  183:5   warning  '_packageVersion' is defined but never used   no-unused-vars
+  183:5   warning  '_packageVersion' is defined but never used   @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/dependencies/prebuilt-providers.ts
+  50:12  warning  'e' is defined but never used  no-unused-vars
+  50:12  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/execution-logs.ts
+  33:5  warning  'message' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/get.ts
+  16:3   warning  'STARTING' is defined but never used     no-unused-vars
+  17:3   warning  'DOWNLOADING' is defined but never used  no-unused-vars
+  18:3   warning  'DONE' is defined but never used         no-unused-vars
+  19:3   warning  'ERROR' is defined but never used        no-unused-vars
+  35:15  warning  'payload' is defined but never used      no-unused-vars
+  36:22  warning  'telemetry' is defined but never used    no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/index.ts
+  6:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-non-null-assertion')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/models/deploy-machine.ts
+  100:4   warning  'output' is defined but never used     no-unused-vars
+  110:13  warning  'output' is defined but never used     no-unused-vars
+  129:43  warning  'event' is defined but never used      no-unused-vars
+  303:5   warning  'send' is defined but never used       no-unused-vars
+  303:32  warning  'onReceive' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/models/interactive-process.ts
+  17:11  warning  'response' is defined but never used  no-unused-vars
+  18:15  warning  'response' is defined but never used  no-unused-vars
+  35:12  warning  'data' is defined but never used      no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/models/terraform-cli.ts
+   47:29  warning  'line' is defined but never used                                                                         no-unused-vars
+   48:29  warning  'line' is defined but never used                                                                         no-unused-vars
+   87:5   warning  'stateName' is defined but never used                                                                    no-unused-vars
+   88:5   warning  'filter' is defined but never used                                                                       no-unused-vars
+   89:9   warning  'stdout' is defined but never used                                                                       no-unused-vars
+   91:5   warning  'stateName' is defined but never used                                                                    no-unused-vars
+   92:5   warning  'filter' is defined but never used                                                                       no-unused-vars
+   93:9   warning  'stderr' is defined but never used                                                                       no-unused-vars
+   96:22  warning  'abortSignal' is defined but never used                                                                  no-unused-vars
+   98:34  warning  '_phase' is defined but never used                                                                       no-unused-vars
+   98:34  warning  '_phase' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   98:50  warning  '_filter' is defined but never used                                                                      no-unused-vars
+   98:50  warning  '_filter' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   99:25  warning  '_isErr' is assigned a value but never used                                                              no-unused-vars
+   99:25  warning  '_isErr' is assigned a value but never used                                                              @typescript-eslint/no-unused-vars
+   99:48  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  133:5   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  134:31  warning  '_err' is defined but never used                                                                         no-unused-vars
+  134:31  warning  '_err' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+  299:16  warning  'state' is defined but never used                                                                        no-unused-vars
+  325:16  warning  'state' is defined but never used                                                                        no-unused-vars
+  346:16  warning  'state' is defined but never used                                                                        no-unused-vars
+  468:17  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/models/terraform.ts
+    4:3   warning  'CREATE' is defined but never used           no-unused-vars
+    5:3   warning  'UPDATE' is defined but never used           no-unused-vars
+    6:3   warning  'DELETE' is defined but never used           no-unused-vars
+    7:3   warning  'READ' is defined but never used             no-unused-vars
+    8:3   warning  'NO_OP' is defined but never used            no-unused-vars
+   12:3   warning  'WAITING' is defined but never used          no-unused-vars
+   13:3   warning  'UPDATING' is defined but never used         no-unused-vars
+   14:3   warning  'UPDATED' is defined but never used          no-unused-vars
+   15:3   warning  'CREATING' is defined but never used         no-unused-vars
+   16:3   warning  'CREATED' is defined but never used          no-unused-vars
+   17:3   warning  'DESTROYING' is defined but never used       no-unused-vars
+   18:3   warning  'DESTROYED' is defined but never used        no-unused-vars
+   19:3   warning  'SUCCESS' is defined but never used          no-unused-vars
+   20:3   warning  'ERROR' is defined but never used            no-unused-vars
+   80:21  warning  'planFile' is defined but never used         no-unused-vars
+   81:22  warning  'resourceChanges' is defined but never used  no-unused-vars
+   82:22  warning  'outputChanges' is defined but never used    no-unused-vars
+  132:10  warning  'opts' is defined but never used             no-unused-vars
+  139:10  warning  'opts' is defined but never used             no-unused-vars
+  148:5   warning  'options' is defined but never used          no-unused-vars
+  156:5   warning  'callback' is defined but never used         no-unused-vars
+  156:16  warning  'state' is defined but never used            no-unused-vars
+  159:5   warning  'options' is defined but never used          no-unused-vars
+  166:5   warning  'callback' is defined but never used         no-unused-vars
+  166:16  warning  'state' is defined but never used            no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/server/terraform-logs.ts
+  7:12  warning  'e' is defined but never used  no-unused-vars
+  7:12  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/synth-stack.ts
+  33:32  warning  'stacks' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/terraform-provider-lock.ts
+  27:23  warning  'stackWorkingDirectory' is defined but never used  no-unused-vars
+  39:14  warning  'e' is defined but never used                      no-unused-vars
+  39:14  warning  'e' is defined but never used                      @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/lib/watch.ts
+   24:17  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  104:19  warning  'newState' is defined but never used     no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/test/lib/terraform-parallelism.test.ts
+  35:42  warning  '_file' is defined but never used  no-unused-vars
+  35:42  warning  '_file' is defined but never used  @typescript-eslint/no-unused-vars
+  35:49  warning  '_args' is defined but never used  no-unused-vars
+  35:49  warning  '_args' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/cli-core/src/test/models/deploy-machine.test.ts
+  99:34  warning  'data' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/checkpoint.ts
+    3:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  108:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/config.test.ts
+  8:41  warning  'dir' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/config.ts
+  14:3  warning  'TYPESCRIPT' is defined but never used  no-unused-vars
+  15:3  warning  'PYTHON' is defined but never used      no-unused-vars
+  16:3  warning  'CSHARP' is defined but never used      no-unused-vars
+  17:3  warning  'JAVA' is defined but never used        no-unused-vars
+  18:3  warning  'GO' is defined but never used          no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/construct-maker-target.ts
+  18:21  warning  'constraint' is defined but never used      no-unused-vars
+  19:21  warning  'targetLanguage' is defined but never used  no-unused-vars
+  69:32  warning  'name' is defined but never used            no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/debug.ts
+   14:23  warning  A `require()` style import is forbidden                                                                  @typescript-eslint/no-require-imports
+   27:26  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  363:39  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  366:6   warning  'name' is defined but never used                                                                         no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/util.ts
+   74:41  warning  'dir' is defined but never used         no-unused-vars
+   87:13  warning  'chunk' is defined but never used       no-unused-vars
+   88:13  warning  'chunk' is defined but never used       no-unused-vars
+  186:12  warning  'statusCode' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl-tools/src/bridge.ts
+   3:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/triple-slash-reference')
+  10:12  warning  'hcl' is defined but never used                                                                               no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/__tests__/expressionToTs.test.ts
+  977:69  warning  Unnecessary escape character: \"  no-useless-escape
+  977:75  warning  Unnecessary escape character: \"  no-useless-escape
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/__tests__/functions.test.ts
+  652:3  warning  '_targetType' is defined but never used  no-unused-vars
+  652:3  warning  '_targetType' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/expressions.ts
+  298:9  warning  'parts' is never reassigned. Use 'const' instead               prefer-const
+  441:7  warning  'expressions' is never reassigned. Use 'const' instead         prefer-const
+  522:7  warning  'transformedNode' is never reassigned. Use 'const' instead     prefer-const
+  632:7  warning  'sourceExpression' is never reassigned. Use 'const' instead    prefer-const
+  639:7  warning  'relativeExpression' is never reassigned. Use 'const' instead  prefer-const
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/function-bindings/functions.ts
+  31:18  warning  'functionCall' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/generation.ts
+   168:25  warning  'for_each' is assigned a value but never used  no-unused-vars
+   168:25  warning  'for_each' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   708:3   warning  '_graph' is defined but never used             no-unused-vars
+   708:3   warning  '_graph' is defined but never used             @typescript-eslint/no-unused-vars
+   847:20  warning  'version' is assigned a value but never used   no-unused-vars
+   847:20  warning  'version' is assigned a value but never used   @typescript-eslint/no-unused-vars
+   938:11  warning  'version' is assigned a value but never used   no-unused-vars
+   938:11  warning  'version' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  1181:41  warning  '_value' is defined but never used             no-unused-vars
+  1181:41  warning  '_value' is defined but never used             @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/index.ts
+  123:7   warning  'g' is defined but never used                         no-unused-vars
+  134:9   warning  'g' is defined but never used                         no-unused-vars
+  515:22  warning  '_throwOnTranslationError' is defined but never used  no-unused-vars
+  515:22  warning  '_throwOnTranslationError' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/iteration.ts
+   14:5   warning  'scope' is defined but never used  no-unused-vars
+   15:5   warning  'key' is defined but never used    no-unused-vars
+   16:5   warning  'id' is defined but never used     no-unused-vars
+   17:5   warning  'value' is defined but never used  no-unused-vars
+   18:5   warning  'graph' is defined but never used  no-unused-vars
+   20:28  warning  'graph' is defined but never used  no-unused-vars
+   39:5   warning  'scope' is defined but never used  no-unused-vars
+   40:5   warning  'id' is defined but never used     no-unused-vars
+   41:5   warning  'value' is defined but never used  no-unused-vars
+   42:5   warning  'graph' is defined but never used  no-unused-vars
+   46:12  warning  'graph' is defined but never used  no-unused-vars
+   70:5   warning  'scope' is defined but never used  no-unused-vars
+   71:5   warning  'key' is defined but never used    no-unused-vars
+   72:5   warning  'id' is defined but never used     no-unused-vars
+   73:5   warning  'value' is defined but never used  no-unused-vars
+   74:5   warning  'graph' is defined but never used  no-unused-vars
+   76:28  warning  'graph' is defined but never used  no-unused-vars
+  100:5   warning  'scope' is defined but never used  no-unused-vars
+  101:5   warning  'type' is defined but never used   no-unused-vars
+  102:5   warning  'key' is defined but never used    no-unused-vars
+  103:5   warning  'id' is defined but never used     no-unused-vars
+  104:5   warning  'value' is defined but never used  no-unused-vars
+  105:5   warning  'graph' is defined but never used  no-unused-vars
+  108:28  warning  'graph' is defined but never used  no-unused-vars
+  127:20  warning  'graph' is defined but never used  no-unused-vars
+  133:16  warning  'graph' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/jsii-rosetta-workarounds.ts
+  114:17  warning  Unnecessary escape character: \"  no-useless-escape
+  114:70  warning  Unnecessary escape character: \/  no-useless-escape
+  114:91  warning  Unnecessary escape character: \"  no-useless-escape
+  123:17  warning  Unnecessary escape character: \"  no-useless-escape
+  123:70  warning  Unnecessary escape character: \/  no-useless-escape
+  123:81  warning  Unnecessary escape character: \"  no-useless-escape
+  131:22  warning  Unnecessary escape character: \"  no-useless-escape
+  131:74  warning  Unnecessary escape character: \"  no-useless-escape
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/lib/references.ts
+  182:13  warning  'for_each' is assigned a value but never used  no-unused-vars
+  182:13  warning  'for_each' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/test/convertProject.test.ts
+  242:19  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/test/globalSetup.ts
+  19:3  warning  'provider' is defined but never used  no-unused-vars
+  20:3  warning  'module' is defined but never used    no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2cdk/test/helpers/convert.ts
+   33:3   warning  'yes_all_languages' is defined but never used                                    no-unused-vars
+   34:3   warning  'yes' is defined but never used                                                  no-unused-vars
+   35:3   warning  'yes_but_only_typescript_right_now_because_it_breaks' is defined but never used  no-unused-vars
+   36:3   warning  'no_cant_resolve_construct' is defined but never used                            no-unused-vars
+   37:3   warning  'no_missing_map_access' is defined but never used                                no-unused-vars
+   38:3   warning  'no_missing_type_coercion' is defined but never used                             no-unused-vars
+   39:3   warning  'never' is defined but never used                                                no-unused-vars
+   42:3   warning  'yes_all_languages' is defined but never used                                    no-unused-vars
+   43:3   warning  'yes' is defined but never used                                                  no-unused-vars
+   49:3   warning  'provider' is defined but never used                                             no-unused-vars
+   50:3   warning  'module' is defined but never used                                               no-unused-vars
+  158:5   warning  'code' is defined but never used                                                 no-unused-vars
+  159:5   warning  'stackName' is defined but never used                                            no-unused-vars
+  192:38  warning  'stackName' is defined but never used                                            no-unused-vars
+  201:5   warning  'stackName' is defined but never used                                            no-unused-vars
+  202:5   warning  'projectDir' is defined but never used                                           no-unused-vars
+  203:5   warning  'providers' is defined but never used                                            no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2json/lib/bridge.ts
+   3:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/triple-slash-reference')
+  19:11  warning  'filename' is defined but never used                                                                          no-unused-vars
+  19:29  warning  'hcl' is defined but never used                                                                               no-unused-vars
+  20:21  warning  'filename' is defined but never used                                                                          no-unused-vars
+  20:39  warning  'hcl' is defined but never used                                                                               no-unused-vars
+  21:22  warning  'filename' is defined but never used                                                                          no-unused-vars
+  21:40  warning  'hcl' is defined but never used                                                                               no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2json/lib/references.ts
+  29:9  warning  'filtered' is never reassigned. Use 'const' instead  prefer-const
+  30:9  warning  'index' is never reassigned. Use 'const' instead     prefer-const
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/hcl2json/test/util.test.ts
+   8:31  warning  Unnecessary escape character: \"  no-useless-escape
+  11:31  warning  Unnecessary escape character: \"  no-useless-escape
+  11:36  warning  Unnecessary escape character: \"  no-useless-escape
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/lazy-index.ts
+  2:89  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  3:89  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  4:97  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  5:81  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  6:75  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  7:80  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  8:79  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  9:72  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/list-block-resource/index.ts
+    41:18  warning  An empty interface declaration allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowInterfaces' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+    78:9   warning  'hasAnyValues' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                                                                   prefer-const
+   116:18  warning  An empty interface declaration allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowInterfaces' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+   152:9   warning  'hasAnyValues' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                                                                   prefer-const
+   334:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+   334:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   705:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+   705:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  1076:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  1076:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  1415:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  1415:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  1666:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  1666:60  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  1918:62  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             no-unused-vars
+  1918:62  warning  '_' is defined but never used                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/map-list-resource/index.ts
+   9:18  warning  An interface declaring no members is equivalent to its supertype                                                                                                                                                                                                                                                                                                                          @typescript-eslint/no-empty-object-type
+  11:18  warning  An empty interface declaration allows any non-nullish value, including literals like `0` and `""`.
+- If that's what you want, disable this lint rule with an inline comment or configure the 'allowInterfaces' rule option.
+- If you want a type meaning "any object", you probably want `object` instead.
+- If you want a type meaning "any value", you probably want `unknown` instead  @typescript-eslint/no-empty-object-type
+  52:9   warning  'hasAnyValues' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                                                                   prefer-const
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/map-resource/index.ts
+  162:62  warning  '_' is defined but never used  no-unused-vars
+  162:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/optional-attribute-resource/index.ts
+  249:62  warning  '_' is defined but never used  no-unused-vars
+  249:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/optional-computed-attribute-resource/index.ts
+  249:62  warning  '_' is defined but never used  no-unused-vars
+  249:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/provider/index.ts
+  348:62  warning  '_' is defined but never used  no-unused-vars
+  348:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/required-attribute-resource/index.ts
+  231:62  warning  '_' is defined but never used  no-unused-vars
+  231:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/edge-provider-bindings/providers/edge/set-block-resource/index.ts
+  138:60  warning  '_' is defined but never used  no-unused-vars
+  138:60  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+  482:62  warning  '_' is defined but never used  no-unused-vars
+  482:62  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/__tests__/provider.test.ts
+  53:18  warning  Unnecessary escape character: \/  no-useless-escape
+  53:41  warning  Unnecessary escape character: \/  no-useless-escape
+  53:48  warning  Unnecessary escape character: \/  no-useless-escape
+  53:55  warning  Unnecessary escape character: \.  no-useless-escape
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/constructs-maker.ts
+  260:22  warning  'options' is defined but never used                   no-unused-vars
+  261:22  warning  'schemaCachePath' is defined but never used           no-unused-vars
+  262:22  warning  'reportTelemetry' is assigned a value but never used  no-unused-vars
+  262:40  warning  'payload' is defined but never used                   no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/emitter/attributes-emitter.ts
+  12:23  warning  'code' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/emitter/resource-emitter.ts
+   11:32  warning  'code' is defined but never used                                       no-unused-vars
+  152:5   warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/emitter/struct-emitter.ts
+   14:32  warning  'code' is defined but never used                                       no-unused-vars
+  148:13  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/models/attribute-type-model.ts
+    9:29  warning  'name' is defined but never used          no-unused-vars
+   12:30  warning  'name' is defined but never used          no-unused-vars
+   35:29  warning  '_name' is defined but never used         no-unused-vars
+   35:29  warning  '_name' is defined but never used         @typescript-eslint/no-unused-vars
+   70:31  warning  'type' is defined but never used          no-unused-vars
+   84:29  warning  '_name' is defined but never used         no-unused-vars
+   84:29  warning  '_name' is defined but never used         @typescript-eslint/no-unused-vars
+  123:31  warning  'struct' is defined but never used        no-unused-vars
+  173:21  warning  'elementType' is defined but never used   no-unused-vars
+  174:21  warning  'isSingleItem' is defined but never used  no-unused-vars
+  175:22  warning  'isBlock' is defined but never used       no-unused-vars
+  270:21  warning  'elementType' is defined but never used   no-unused-vars
+  271:21  warning  'isSingleItem' is defined but never used  no-unused-vars
+  272:22  warning  'isBlock' is defined but never used       no-unused-vars
+  371:31  warning  'elementType' is defined but never used   no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/models/struct.ts
+   7:21  warning  'name' is defined but never used                   no-unused-vars
+   8:21  warning  'attributes' is defined but never used             no-unused-vars
+   9:21  warning  'isClass' is assigned a value but never used       no-unused-vars
+  10:21  warning  'isAnonymous' is assigned a value but never used   no-unused-vars
+  11:12  warning  'isSingleItem' is assigned a value but never used  no-unused-vars
+  12:21  warning  'nestingMode' is assigned a value but never used   no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/module-generator.ts
+  10:22  warning  'code' is defined but never used     no-unused-vars
+  11:22  warning  'targets' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/provider-generator.ts
+  92:22  warning  'code' is defined but never used    no-unused-vars
+  93:22  warning  'schema' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/provider-generator/lib/get/generator/resource-parser.ts
+  114:23  warning  'classNames' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/build.ts
+  3:17  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cdktn.ts
+  35:5   warning  'done' is defined but never used                no-unused-vars
+  35:13  warning  'err' is defined but never used                 no-unused-vars
+  35:23  warning  'defaultCompletions' is defined but never used  no-unused-vars
+  37:10  warning  'completions' is defined but never used         no-unused-vars
+  75:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  76:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  77:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  78:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  79:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  80:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  81:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  82:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  83:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  84:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  85:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  86:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+  87:12  warning  A `require()` style import is forbidden         @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/convert.ts
+  14:12  warning  'e' is defined but never used  no-unused-vars
+  14:12  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/handlers.ts
+  116:12  warning  'e' is defined but never used                                                                            no-unused-vars
+  116:12  warning  'e' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+  125:14  warning  'err' is defined but never used                                                                          no-unused-vars
+  125:14  warning  'err' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  204:3   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  205:28  warning  'outputs' is defined but never used                                                                      no-unused-vars
+  318:17  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  434:12  warning  'e' is defined but never used                                                                            no-unused-vars
+  434:12  warning  'e' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+  454:17  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  530:3   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  531:28  warning  'outputs' is defined but never used                                                                      no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/helper/base-command.ts
+  14:26  warning  'args' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/helper/check-directory.ts
+  8:19  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/helper/init.ts
+  248:7  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/helper/terraform-login.ts
+   11:17  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+   34:32  warning  'tfeHostname' is defined but never used  no-unused-vars
+  137:14  warning  'e' is defined but never used            no-unused-vars
+  137:14  warning  'e' is defined but never used            @typescript-eslint/no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/helper/utilities.ts
+  31:12  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  33:10  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/provider.ts
+  12:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  13:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  14:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  15:16  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/deploy.tsx
+   6:1   warning  Unused eslint-disable directive (no problems were reported from 'no-control-regex')
+  59:24  warning  'outputs' is defined but never used                                                  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/destroy.tsx
+  6:1  warning  Unused eslint-disable directive (no problems were reported from 'no-control-regex')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/get.tsx
+  88:6  warning  React Hook React.useEffect has missing dependencies: 'codeMakerOutput' and 'exit'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/hooks/cdktf-project.ts
+   51:21  warning  'project' is defined but never used                                                                                                                                                                                                                                                                                no-unused-vars
+  142:6   warning  React Hook useEffect has missing dependencies: 'exit', 'id', 'opts.hcl', 'opts.outDir', 'opts.synthCommand', and 'projectCallback'. Either include them or remove the dependency array. If 'projectCallback' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/output.tsx
+   6:1   warning  Unused eslint-disable directive (no problems were reported from 'no-control-regex')
+  16:24  warning  'outputs' is defined but never used                                                  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn-cli/src/bin/cmds/ui/watch.tsx
+  47:29  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')
+  73:6   warning  React Hook useEffect has missing dependencies: 'autoApprove', 'logEntryId', 'parallelism', 'synthCommand', 'targetDir', 'targetStacks', and 'terraformParallelism'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setLogEntries' needs the current value of 'logEntryId'  react-hooks/exhaustive-deps
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/lib/terraform-element.ts
+  119:7  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-non-null-assertion')
+  135:5  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-non-null-assertion')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/lib/terraform-stack.ts
+  164:7  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-non-null-assertion')
+  180:5  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-non-null-assertion')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/lib/tokens/private/encoding.ts
+  332:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/lib/tokens/private/intrinsic.ts
+  40:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/test/csharp/edge/test.ts
+  5:22  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/test/template-server.ts
+  25:23  warning  'srcDirectory' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/test/test-helper.ts
+    8:12  warning  A `require()` style import is forbidden       @typescript-eslint/no-require-imports
+    9:14  warning  A `require()` style import is forbidden       @typescript-eslint/no-require-imports
+   10:12  warning  A `require()` style import is forbidden       @typescript-eslint/no-require-imports
+   11:13  warning  A `require()` style import is forbidden       @typescript-eslint/no-require-imports
+   12:19  warning  A `require()` style import is forbidden       @typescript-eslint/no-require-imports
+   74:12  warning  'rootDir' is defined but never used           no-unused-vars
+  382:11  warning  'workingDirectory' is defined but never used  no-unused-vars
+
+/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/test/typescript/watch/test.ts
+   4:20  warning  A `require()` style import is forbidden               @typescript-eslint/no-require-imports
+  67:5   warning  'check' is defined but never used                     no-unused-vars
+  67:13  warning  'line' is defined but never used                      no-unused-vars
+  68:5   warning  'timeout' is defined but never used                   no-unused-vars
+  72:9   warning  'line' is defined but never used                      no-unused-vars
+  72:35  warning  'exit' is defined but never used                      no-unused-vars
+  88:13  warning  'line' is defined but never used                      no-unused-vars
+  92:11  warning  'timeoutId' is never reassigned. Use 'const' instead  prefer-const
+
+✖ 395 problems (0 errors, 395 warnings)
+  0 errors and 34 warnings potentially fixable with the `--fix` option.
+
+$ prettier --check .
+Checking formatting...
+All matched files use Prettier code style!
+$ lerna run --scope 'cdktn*' --scope @cdktn/* --concurrency 2 test
+lerna notice cli v8.2.2
+lerna notice filter including ["cdktn*","@cdktn/*"]
+lerna info filter [ 'cdktn*', '@cdktn/*' ]
+
+ Lerna (powered by Nx)   Running target test for 9 projects:
+
+- @cdktn/cli-core
+- @cdktn/commons
+- @cdktn/hcl-tools
+- @cdktn/hcl2cdk
+- @cdktn/hcl2json
+- @cdktn/provider-generator
+- @cdktn/provider-schema
+- cdktn
+- cdktn-cli
+
+
+
+> @cdktn/commons:test
+
+[2K[1G[2m$ yarn build[22m
+[2K[1G[2m$ tsc[22m
+[2K[1G[2m$ yarn lint && jest[22m
+[2K[1G[2m$ eslint . [22m
+(node:19703) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/checkpoint.ts[24m[0m
+[0m    [2m3:16[22m  [33mwarning[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m  [2m108:16[22m  [33mwarning[39m  A `require()` style import is forbidden  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/config.test.ts[24m[0m
+[0m  [2m8:41[22m  [33mwarning[39m  'dir' is defined but never used  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/config.ts[24m[0m
+[0m  [2m14:3[22m  [33mwarning[39m  'TYPESCRIPT' is defined but never used  [2mno-unused-vars[22m[0m
+[0m  [2m15:3[22m  [33mwarning[39m  'PYTHON' is defined but never used      [2mno-unused-vars[22m[0m
+[0m  [2m16:3[22m  [33mwarning[39m  'CSHARP' is defined but never used      [2mno-unused-vars[22m[0m
+[0m  [2m17:3[22m  [33mwarning[39m  'JAVA' is defined but never used        [2mno-unused-vars[22m[0m
+[0m  [2m18:3[22m  [33mwarning[39m  'GO' is defined but never used          [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/construct-maker-target.ts[24m[0m
+[0m  [2m18:21[22m  [33mwarning[39m  'constraint' is defined but never used      [2mno-unused-vars[22m[0m
+[0m  [2m19:21[22m  [33mwarning[39m  'targetLanguage' is defined but never used  [2mno-unused-vars[22m[0m
+[0m  [2m69:32[22m  [33mwarning[39m  'name' is defined but never used            [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/debug.ts[24m[0m
+[0m   [2m14:23[22m  [33mwarning[39m  A `require()` style import is forbidden                                                                  [2m@typescript-eslint/no-require-imports[22m[0m
+[0m   [2m27:26[22m  [33mwarning[39m  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')[0m
+[0m  [2m363:39[22m  [33mwarning[39m  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-empty-function')[0m
+[0m  [2m366:6[22m   [33mwarning[39m  'name' is defined but never used                                                                         [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4m/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/@cdktn/commons/src/util.ts[24m[0m
+[0m   [2m74:41[22m  [33mwarning[39m  'dir' is defined but never used         [2mno-unused-vars[22m[0m
+[0m   [2m87:13[22m  [33mwarning[39m  'chunk' is defined but never used       [2mno-unused-vars[22m[0m
+[0m   [2m88:13[22m  [33mwarning[39m  'chunk' is defined but never used       [2mno-unused-vars[22m[0m
+[0m  [2m186:12[22m  [33mwarning[39m  'statusCode' is defined but never used  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[33m[1m✖ 19 problems (0 errors, 19 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[33m[1m  0 errors and 2 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
+(node:19834) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mterraform-module.test.ts[22m
+(node:19832) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mconstruct-maker-target.test.ts[22m
+(node:19833) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mconfig.test.ts[22m
+
+[1mTest Suites: [22m[1m[32m3 passed[39m[22m, 3 total
+[1mTests:       [22m[1m[32m70 passed[39m[22m, 70 total
+[1mSnapshots:   [22m[1m[32m29 passed[39m[22m, 29 total
+[1mTime:[22m        1.852 s, estimated 2 s
+[2mRan all test suites[22m[2m.[22m
+
+> @cdktn/hcl2json:test
+
+[2K[1G[2m$ jest[22m
+(node:19887) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mhcl2json.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mexpressions.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mutil.test.ts[22m
+
+[1mTest Suites: [22m[1m[32m3 passed[39m[22m, 3 total
+[1mTests:       [22m[1m[32m56 passed[39m[22m, 56 total
+[1mSnapshots:   [22m[1m[32m54 passed[39m[22m, 54 total
+[1mTime:[22m        1.017 s
+[2mRan all test suites[22m[2m.[22m
+
+> @cdktn/provider-schema:test
+
+[2K[1G[2m$ yarn build[22m
+[2K[1G[2m$ tsc[22m
+[2K[1G[2m$ yarn lint && jest[22m
+[2K[1G[2m$ eslint . [22m
+(node:19979) ESLintIgnoreWarning: The ".eslintignore" file is no longer supported. Switch to using the "ignores" property in "eslint.config.js": https://eslint.org/docs/latest/use/configure/migration-guide#ignoring-files
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20066) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20067) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/__tests__/[22m[1mprovider-schema.test.ts[22m
+
+[1mTest Suites: [22m[1m[33m1 skipped[39m[22m, [1m[32m1 passed[39m[22m, 1 of 2 total
+[1mTests:       [22m[1m[33m2 skipped[39m[22m, [1m[32m7 passed[39m[22m, 9 total
+[1mSnapshots:   [22m[1m[32m7 passed[39m[22m, 7 total
+[1mTime:[22m        4.594 s, estimated 5 s
+[2mRan all test suites[22m[2m.[22m
+
+> cdktn:test
+
+(node:19575) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2K[1G[2m$ jest --passWithNoTests && yarn lint[22m
+(node:19665) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-module-asset.test.ts[22m
+(node:19668) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/testing/adapters/__tests__/[22m[1mindex.test.ts[22m
+(node:19667) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mtfExpression.test.ts[22m
+  [1m● [22mConsole
+
+    [2m[33mconsole.warn[39m[22m
+[33m      You're using escape sequences (${...}) with CDKTN Built-in functions. This is not supported yet, and the output may be incorrect.[39m
+[2m[22m
+[2m    [0m [90m 293 |[39m     ) {[22m
+[2m     [90m 294 |[39m       [90m// Only print warning and act as if escape sequences are ignored[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 295 |[39m       console[33m.[39mwarn([22m
+[2m     [90m     |[39m               [31m[1m^[22m[2m[39m[22m
+[2m     [90m 296 |[39m         [32m"You're using escape sequences (${...}) with CDKTN Built-in functions. This is not supported yet, and the output may be incorrect."[39m[33m,[39m[22m
+[2m     [90m 297 |[39m       )[33m;[39m[22m
+[2m     [90m 298 |[39m       console[33m.[39mwarn([36mthis[39m[33m.[39mstr)[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat TokenString.warn [as split] ([22m[2mlib/tokens/private/encoding.ts[2m:295:15)[22m[2m[22m
+[2m      [2mat split ([22m[2mlib/tokens/private/resolve.ts[2m:156:34)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.resolve [as resolveToken] ([22m[2mlib/tokens/resolvable.ts[2m:197:26)[22m[2m[22m
+[2m      [2mat resolveToken ([22m[2mlib/tokens/private/resolve.ts[2m:225:29)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat TokenizedStringFragments.resolve [as mapTokens] ([22m[2mlib/tokens/string-fragments.ts[2m:173:34)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.mapTokens [as resolveString] ([22m[2mlib/tokens/resolvable.ts[2m:221:22)[22m[2m[22m
+[2m      [2mat resolveString ([22m[2mlib/tokens/private/resolve.ts[2m:157:30)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat FunctionCall.resolve [as resolveArg] ([22m[2mlib/tfExpression.ts[2m:36:33)[22m[2m[22m
+[2m      [2mat resolveArg ([22m[2mlib/tfExpression.ts[2m:371:26)[22m[2m[22m
+[2m          at Array.map (<anonymous>)[22m
+[2m      [2mat FunctionCall.map [as resolve] ([22m[2mlib/tfExpression.ts[2m:371:8)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.resolve [as resolveToken] ([22m[2mlib/tokens/resolvable.ts[2m:194:24)[22m[2m[22m
+[2m      [2mat resolveToken ([22m[2mlib/tokens/private/resolve.ts[2m:225:29)[22m[2m[22m
+[2m      [2mat Tokenization.resolve ([22m[2mlib/tokens/token.ts[2m:270:19)[22m[2m[22m
+[2m      [2mat resolve ([22m[2mlib/_tokens.ts[2m:10:23)[22m[2m[22m
+[2m      [2mat resolveExpression ([22m[2m[0m[36mtest/tfExpression.test.ts[39m[0m[2m:20:56)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mtest/tfExpression.test.ts[39m[0m[2m:263:5)[22m[2m[22m
+
+    [2m[33mconsole.warn[39m[22m
+[33m      y("my ref: ${${TfToken[TOKEN.9]}}", docker_container.foo.bar)[39m
+[2m[22m
+[2m    [0m [90m 296 |[39m         [32m"You're using escape sequences (${...}) with CDKTN Built-in functions. This is not supported yet, and the output may be incorrect."[39m[33m,[39m[22m
+[2m     [90m 297 |[39m       )[33m;[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 298 |[39m       console[33m.[39mwarn([36mthis[39m[33m.[39mstr)[33m;[39m[22m
+[2m     [90m     |[39m               [31m[1m^[22m[2m[39m[22m
+[2m     [90m 299 |[39m     }[22m
+[2m     [90m 300 |[39m     [36mwhile[39m (index [33m>=[39m [35m0[39m) {[22m
+[2m     [90m 301 |[39m       [36mconst[39m iter [33m=[39m [36mthis[39m[33m.[39mtokenizeNext(lookup[33m,[39m ret[33m,[39m index[33m,[39m escapeDepth)[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat TokenString.warn [as split] ([22m[2mlib/tokens/private/encoding.ts[2m:298:15)[22m[2m[22m
+[2m      [2mat split ([22m[2mlib/tokens/private/resolve.ts[2m:156:34)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.resolve [as resolveToken] ([22m[2mlib/tokens/resolvable.ts[2m:197:26)[22m[2m[22m
+[2m      [2mat resolveToken ([22m[2mlib/tokens/private/resolve.ts[2m:225:29)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat TokenizedStringFragments.resolve [as mapTokens] ([22m[2mlib/tokens/string-fragments.ts[2m:173:34)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.mapTokens [as resolveString] ([22m[2mlib/tokens/resolvable.ts[2m:221:22)[22m[2m[22m
+[2m      [2mat resolveString ([22m[2mlib/tokens/private/resolve.ts[2m:157:30)[22m[2m[22m
+[2m      [2mat Object.resolve ([22m[2mlib/tokens/private/resolve.ts[2m:84:16)[22m[2m[22m
+[2m      [2mat FunctionCall.resolve [as resolveArg] ([22m[2mlib/tfExpression.ts[2m:36:33)[22m[2m[22m
+[2m      [2mat resolveArg ([22m[2mlib/tfExpression.ts[2m:371:26)[22m[2m[22m
+[2m          at Array.map (<anonymous>)[22m
+[2m      [2mat FunctionCall.map [as resolve] ([22m[2mlib/tfExpression.ts[2m:371:8)[22m[2m[22m
+[2m      [2mat DefaultTokenResolver.resolve [as resolveToken] ([22m[2mlib/tokens/resolvable.ts[2m:194:24)[22m[2m[22m
+[2m      [2mat resolveToken ([22m[2mlib/tokens/private/resolve.ts[2m:225:29)[22m[2m[22m
+[2m      [2mat Tokenization.resolve ([22m[2mlib/tokens/token.ts[2m:270:19)[22m[2m[22m
+[2m      [2mat resolve ([22m[2mlib/_tokens.ts[2m:10:23)[22m[2m[22m
+[2m      [2mat resolveExpression ([22m[2m[0m[36mtest/tfExpression.test.ts[39m[0m[2m:20:56)[22m[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mtest/tfExpression.test.ts[39m[0m[2m:263:5)[22m[2m[22m
+
+(node:19671) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-provisioner.test.ts[22m
+(node:19669) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/testing/adapters/__tests__/[22m[1mjest.test.ts[22m
+(node:19666) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mvariable.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mupgrade-id-aspect.test.ts[22m
+(node:19664) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mstack.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mvalidations.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mtesting.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-operator.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mresource.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mapp.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-data-resource.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mbackend.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mdata-source.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mfunctions.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1moutput.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mprovider.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mdynamic-expression.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mdynamic-block.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mutil.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mruntime.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mlocal.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/tokens/[22m[1mstring-fragments.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mremote-state.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mfqn.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mmanifest.test.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mencoding.test.ts[22m
+Error: ENOENT: no such file or directory, scandir '/nonexistent/path'
+[90m    at Object.readdirSync (node:fs:1554:26)[39m
+    at addDirectory [90m(/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/[39mlib/private/fs.js:70:28[90m)[39m
+    at runArchive [90m(/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/[39mlib/private/fs.js:88:5[90m)[39m
+    at Object.<anonymous> [90m(/Users/dwolfe/src/github.com/dnwlf/cdk-terrain/packages/cdktn/[39mlib/private/fs.js:106:5[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1829:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1552:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1354:12)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)[39m
+[90m    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)[39m {
+  errno: [33m-2[39m,
+  code: [32m'ENOENT'[39m,
+  syscall: [32m'scandir'[39m,
+  path: [32m'/nonexistent/path'[39m
+}
+(node:19663) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1marchive.test.ts[22m
+(node:19670) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mmodule.test.ts[22m
+(node:19662) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1miterator.test.ts[22m ([0m[1m[41m5.39 s[49m[22m[0m)
+(node:19657) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mlib/testing/__tests__/[22m[1mmatchers.test.ts[22m ([0m[1m[41m5.8 s[49m[22m[0m)
+[1m[31m  [1m● [22m[1mmatchers › toPlanSuccessfully › succeeds if the terraform config passed is valid[39m[22m
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+    Received: [31mfalse[39m
+[2m[22m
+[2m    [0m [90m 325 |[39m       [36mconst[39m res [33m=[39m toPlanSuccessfully([33mTesting[39m[33m.[39mfullSynth(stack))[33m;[39m[22m
+[2m     [90m 326 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 327 |[39m       expect(res[33m.[39mpass)[33m.[39mtoBeTruthy()[33m;[39m[22m
+[2m     [90m     |[39m                        [31m[1m^[22m[2m[39m[22m
+[2m     [90m 328 |[39m       expect(res[33m.[39mmessage)[33m.[39mtoMatchInlineSnapshot([22m
+[2m     [90m 329 |[39m         [32m`"Expected subject not to plan successfully"`[39m[33m,[39m[22m
+[2m     [90m 330 |[39m       )[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mlib/testing/__tests__/matchers.test.ts[39m[0m[2m:327:24)[22m[2m[22m
+
+(node:19661) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-module.test.ts[22m ([0m[1m[41m6.65 s[49m[22m[0m)
+(node:19660) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mjson-to-hcl.test.ts[22m ([0m[1m[41m7.771 s[49m[22m[0m)
+(node:19659) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1mterraform-hcl-module.test.ts[22m ([0m[1m[41m15.787 s[49m[22m[0m)
+(node:19658) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/[22m[1massets.test.ts[22m ([0m[1m[41m25.263 s[49m[22m[0m)
+-----------------------------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                                                                        
+-----------------------------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[33;1mAll files                         [0m | [33;1m  79.13[0m | [33;1m   74.27[0m | [33;1m  65.26[0m | [33;1m   78.8[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m lib                              [0m | [32;1m  81.32[0m | [33;1m   78.81[0m | [33;1m  66.43[0m | [32;1m  80.55[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  _tokens.ts                      [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  annotations.ts                  [0m | [32;1m    100[0m | [33;1m      75[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m33                                                                                                                                                                                      [0m 
+[32;1m  app.ts                          [0m | [32;1m     95[0m | [32;1m      90[0m | [32;1m    100[0m | [32;1m  94.82[0m | [31;1m100,118,139                                                                                                                                                                             [0m 
+[32;1m  aspect.ts                       [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[31;1m  complex-computed-list.ts        [0m | [31;1m   39.2[0m | [31;1m   31.81[0m | [31;1m  27.94[0m | [31;1m   39.2[0m | [31;1m48,69-105,132,159,184,208,220-260,283,318-326,333-341,352-360,371-380,389-398,410-423,450,468,475,503-543,552-560,567-575,582-590,597-605,612-619,630-637,648-656,665-673               [0m 
+[33;1m  errors.ts                       [0m | [33;1m  74.19[0m | [32;1m     100[0m | [31;1m  21.31[0m | [33;1m   61.6[0m | [31;1m10,26,33,44,51,58,97,101,114,130,149,171,182,188,222,235,241,249,255,280,289,295,322,328,333,342,352,366,375,386,395,404,414,423,426,431,443,450,453,458,489,493,497,501,513,524,529,532[0m 
+[32;1m  features.ts                     [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[31;1m  importable-resource.ts          [0m | [31;1m  27.27[0m | [31;1m       0[0m | [31;1m      0[0m | [31;1m  27.27[0m | [31;1m24-76                                                                                                                                                                                   [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  manifest.ts                     [0m | [32;1m    100[0m | [32;1m   83.33[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m49                                                                                                                                                                                      [0m 
+[33;1m  resource.ts                     [0m | [33;1m     60[0m | [32;1m     100[0m | [31;1m      0[0m | [33;1m     60[0m | [31;1m25-26                                                                                                                                                                                   [0m 
+[33;1m  runtime.ts                      [0m | [33;1m   60.6[0m | [31;1m   41.66[0m | [33;1m  53.84[0m | [33;1m   60.6[0m | [31;1m84-104,112,117,130,147-176                                                                                                                                                              [0m 
+[33;1m  terraform-asset.ts              [0m | [33;1m     50[0m | [31;1m   35.29[0m | [33;1m  66.66[0m | [33;1m     50[0m | [31;1m64-74,84,88,119-162                                                                                                                                                                     [0m 
+[33;1m  terraform-backend.ts            [0m | [33;1m  76.92[0m | [32;1m     100[0m | [33;1m  57.14[0m | [33;1m  76.92[0m | [31;1m27-44                                                                                                                                                                                   [0m 
+[32;1m  terraform-count.ts              [0m | [32;1m   90.9[0m | [32;1m     100[0m | [32;1m  83.33[0m | [32;1m   90.9[0m | [31;1m31                                                                                                                                                                                      [0m 
+[33;1m  terraform-data-resource.ts      [0m | [33;1m     52[0m | [31;1m       0[0m | [31;1m  14.28[0m | [33;1m     52[0m | [31;1m68,118-138,144-164,179                                                                                                                                                                  [0m 
+[33;1m  terraform-data-source.ts        [0m | [33;1m  68.18[0m | [32;1m    92.3[0m | [31;1m   42.1[0m | [33;1m  68.18[0m | [31;1m70-74,82-110,132-151,185                                                                                                                                                                [0m 
+[32;1m  terraform-dynamic-block.ts      [0m | [32;1m  83.33[0m | [32;1m     100[0m | [33;1m   62.5[0m | [32;1m  83.33[0m | [31;1m39,57-66                                                                                                                                                                                [0m 
+[32;1m  terraform-dynamic-expression.ts [0m | [32;1m  86.66[0m | [32;1m     100[0m | [33;1m  66.66[0m | [32;1m  86.66[0m | [31;1m59-68                                                                                                                                                                                   [0m 
+[32;1m  terraform-element.ts            [0m | [32;1m  97.77[0m | [32;1m   81.25[0m | [32;1m   92.3[0m | [32;1m  97.77[0m | [31;1m60                                                                                                                                                                                      [0m 
+[32;1m  terraform-functions.ts          [0m | [32;1m  84.61[0m | [31;1m      40[0m | [33;1m  71.42[0m | [32;1m  83.33[0m | [31;1m18,77                                                                                                                                                                                   [0m 
+[32;1m  terraform-hcl-module.ts         [0m | [32;1m  83.33[0m | [33;1m      75[0m | [33;1m     70[0m | [32;1m  83.33[0m | [31;1m33-41                                                                                                                                                                                   [0m 
+[32;1m  terraform-iterator.ts           [0m | [32;1m  85.29[0m | [32;1m   84.61[0m | [32;1m  80.48[0m | [32;1m  85.29[0m | [31;1m169-177,209,233,269-271,317,397,466-473                                                                                                                                                 [0m 
+[33;1m  terraform-local.ts              [0m | [33;1m  60.86[0m | [33;1m      50[0m | [33;1m     50[0m | [33;1m  60.86[0m | [31;1m24-28,36,44-60,91                                                                                                                                                                       [0m 
+[32;1m  terraform-module-asset.ts       [0m | [32;1m  96.07[0m | [32;1m   83.33[0m | [32;1m    100[0m | [32;1m     96[0m | [31;1m40,51                                                                                                                                                                                   [0m 
+[32;1m  terraform-module.ts             [0m | [32;1m  92.98[0m | [32;1m   82.14[0m | [32;1m  88.23[0m | [32;1m  92.98[0m | [31;1m92,109,145,214                                                                                                                                                                          [0m 
+[32;1m  terraform-operators.ts          [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  terraform-output.ts             [0m | [32;1m  95.12[0m | [32;1m   95.23[0m | [32;1m  93.75[0m | [32;1m  94.87[0m | [31;1m59,166                                                                                                                                                                                  [0m 
+[32;1m  terraform-provider.ts           [0m | [32;1m  90.47[0m | [32;1m    92.3[0m | [32;1m  81.81[0m | [32;1m  90.47[0m | [31;1m68,130                                                                                                                                                                                  [0m 
+[33;1m  terraform-provisioner.ts        [0m | [33;1m  77.77[0m | [32;1m     100[0m | [33;1m     60[0m | [33;1m  77.77[0m | [31;1m375-383                                                                                                                                                                                 [0m 
+[33;1m  terraform-remote-state.ts       [0m | [33;1m  79.16[0m | [33;1m      50[0m | [33;1m  63.63[0m | [33;1m  79.16[0m | [31;1m37-49,112                                                                                                                                                                               [0m 
+[33;1m  terraform-resource-targets.ts   [0m | [33;1m  66.66[0m | [33;1m      50[0m | [33;1m     60[0m | [33;1m  66.66[0m | [31;1m19-20,27,38                                                                                                                                                                             [0m 
+[32;1m  terraform-resource.ts           [0m | [32;1m     90[0m | [32;1m   86.15[0m | [32;1m  87.87[0m | [32;1m     90[0m | [31;1m197,213-225,435,452,476,500,523                                                                                                                                                         [0m 
+[32;1m  terraform-stack.ts              [0m | [32;1m   97.5[0m | [32;1m   87.91[0m | [32;1m  97.61[0m | [32;1m  97.42[0m | [31;1m60,68,212,474,493                                                                                                                                                                       [0m 
+[32;1m  terraform-variable.ts           [0m | [32;1m  87.03[0m | [33;1m      50[0m | [33;1m  69.56[0m | [32;1m  87.03[0m | [31;1m36,44,52-53,128,136,186                                                                                                                                                                 [0m 
+[32;1m  tfExpression.ts                 [0m | [32;1m  98.77[0m | [32;1m   96.51[0m | [32;1m  94.11[0m | [32;1m  98.77[0m | [31;1m136,203                                                                                                                                                                                 [0m 
+[32;1m  upgrade-id-aspect.ts            [0m | [32;1m  84.31[0m | [33;1m      55[0m | [32;1m  91.66[0m | [32;1m  83.67[0m | [31;1m56,68-73,108,127,174-175                                                                                                                                                                [0m 
+[32;1m  util.ts                         [0m | [32;1m  92.95[0m | [32;1m   90.62[0m | [32;1m    100[0m | [32;1m  94.28[0m | [31;1m24,129-132                                                                                                                                                                              [0m 
+[32;1m  validateEnvironment.ts          [0m | [32;1m  85.71[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m  85.71[0m | [31;1m21                                                                                                                                                                                      [0m 
+[33;1m lib/backends                     [0m | [33;1m  79.77[0m | [33;1m   54.54[0m | [33;1m  56.94[0m | [33;1m  79.66[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  azurerm-backend.ts              [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[33;1m  cloud-backend.ts                [0m | [33;1m  68.57[0m | [33;1m      50[0m | [33;1m     50[0m | [33;1m  67.64[0m | [31;1m56,81-103,172,184-201                                                                                                                                                                   [0m 
+[32;1m  consul-backend.ts               [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m21,33                                                                                                                                                                                   [0m 
+[32;1m  cos-backend.ts                  [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[32;1m  gcs-backend.ts                  [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[32;1m  http-backend.ts                 [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  local-backend.ts                [0m | [32;1m  92.85[0m | [33;1m      60[0m | [32;1m     80[0m | [32;1m  92.85[0m | [31;1m28                                                                                                                                                                                      [0m 
+[32;1m  oss-backend.ts                  [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[32;1m  pg-backend.ts                   [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[32;1m  remote-backend.ts               [0m | [32;1m  88.88[0m | [32;1m     100[0m | [33;1m     75[0m | [32;1m  88.88[0m | [31;1m26,68                                                                                                                                                                                   [0m 
+[32;1m  s3-backend.ts                   [0m | [32;1m  81.81[0m | [32;1m     100[0m | [33;1m     60[0m | [32;1m  81.81[0m | [31;1m25-33                                                                                                                                                                                   [0m 
+[31;1m  swift-backend.ts                [0m | [31;1m  45.45[0m | [32;1m     100[0m | [31;1m      0[0m | [31;1m  45.45[0m | [31;1m17-35,48                                                                                                                                                                                [0m 
+[31;1m lib/functions                    [0m | [31;1m  48.66[0m | [33;1m   78.94[0m | [31;1m  34.81[0m | [31;1m  48.38[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  helpers.ts                      [0m | [32;1m  85.71[0m | [33;1m   78.94[0m | [32;1m     90[0m | [32;1m   85.5[0m | [31;1m38,44,57,66,71,87,91,107,140,165                                                                                                                                                        [0m 
+[31;1m  terraform-functions.generated.ts[0m | [31;1m  26.49[0m | [32;1m     100[0m | [31;1m  25.21[0m | [31;1m  26.49[0m | [31;1m35-56,70-100,119-159,182,201-246,264-353,374-407,428,442,457,491,527-543,560-584,602,634-779,809-858,876-883,904,925-960,983,997-1028                                                   [0m 
+[33;1m lib/hcl                          [0m | [33;1m  76.84[0m | [33;1m   69.65[0m | [32;1m  82.22[0m | [33;1m  78.02[0m | [31;1m                                                                                                                                                                                        [0m 
+[33;1m  render.ts                       [0m | [33;1m  76.84[0m | [33;1m   69.65[0m | [32;1m  82.22[0m | [33;1m  78.02[0m | [31;1m34,38,47,61,75-76,86-89,92,109,114,118-135,141,145,160-164,173,194,197,202,210,223,297,321-338,411,473,498,546,550,554,561,565,591,610,619,625,643,659,672,681,700                      [0m 
+[33;1m lib/private                      [0m | [33;1m  57.89[0m | [31;1m    38.7[0m | [33;1m  54.54[0m | [33;1m  57.44[0m | [31;1m                                                                                                                                                                                        [0m 
+[31;1m  fs.ts                           [0m | [31;1m  38.09[0m | [31;1m   19.04[0m | [31;1m  28.57[0m | [31;1m  38.09[0m | [31;1m24-45,70-97,107-115,144-154                                                                                                                                                             [0m 
+[32;1m  unique.ts                       [0m | [32;1m  96.87[0m | [32;1m      80[0m | [32;1m    100[0m | [32;1m  96.77[0m | [31;1m40                                                                                                                                                                                      [0m 
+[32;1m lib/synthesize                   [0m | [32;1m   85.5[0m | [33;1m   66.66[0m | [32;1m  92.85[0m | [32;1m  85.07[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  synthesizer.ts                  [0m | [32;1m  85.29[0m | [33;1m   66.66[0m | [32;1m  92.85[0m | [32;1m  84.84[0m | [31;1m34,85-88,94-105,141,149-152                                                                                                                                                             [0m 
+[32;1m lib/testing                      [0m | [32;1m  89.83[0m | [32;1m      80[0m | [32;1m     82[0m | [32;1m  89.77[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  index.ts                        [0m | [32;1m  86.41[0m | [33;1m   75.75[0m | [33;1m  60.86[0m | [32;1m  86.25[0m | [31;1m92,109,151,208-277                                                                                                                                                                      [0m 
+[32;1m  matchers.ts                     [0m | [32;1m   92.7[0m | [32;1m   82.08[0m | [32;1m    100[0m | [32;1m   92.7[0m | [31;1m82,85,156,332,359,386,414                                                                                                                                                               [0m 
+[33;1m lib/testing/adapters             [0m | [33;1m  68.18[0m | [33;1m   66.66[0m | [33;1m     50[0m | [33;1m  68.18[0m | [31;1m                                                                                                                                                                                        [0m 
+[33;1m  jest.ts                         [0m | [33;1m  68.18[0m | [33;1m   66.66[0m | [33;1m     50[0m | [33;1m  68.18[0m | [31;1m67,74,84,136-162                                                                                                                                                                        [0m 
+[33;1m lib/tokens                       [0m | [33;1m  69.86[0m | [31;1m   49.59[0m | [33;1m  66.15[0m | [33;1m  70.37[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[31;1m  lazy.ts                         [0m | [31;1m     40[0m | [31;1m      20[0m | [31;1m  27.77[0m | [31;1m     40[0m | [31;1m114-134,161-223,239                                                                                                                                                                     [0m 
+[32;1m  resolvable.ts                   [0m | [32;1m   82.6[0m | [33;1m      50[0m | [32;1m    100[0m | [32;1m   82.6[0m | [31;1m162,165,230,237,249,254,265,272                                                                                                                                                         [0m 
+[32;1m  string-fragments.ts             [0m | [32;1m  88.88[0m | [33;1m   76.47[0m | [32;1m    100[0m | [32;1m  88.73[0m | [31;1m44,126,160-161,175,181-182,196                                                                                                                                                          [0m 
+[33;1m  token.ts                        [0m | [33;1m  53.22[0m | [31;1m   40.38[0m | [33;1m   62.5[0m | [33;1m     55[0m | [31;1m69,79,92,187,200,206-224,238-259,298-306                                                                                                                                                [0m 
+[32;1m lib/tokens/private               [0m | [32;1m  85.31[0m | [32;1m   80.95[0m | [32;1m  82.85[0m | [32;1m  85.31[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  encoding.ts                     [0m | [32;1m  95.54[0m | [32;1m   91.91[0m | [32;1m     96[0m | [32;1m  95.54[0m | [31;1m108,192,271,334,402,459,462                                                                                                                                                             [0m 
+[33;1m  intrinsic.ts                    [0m | [33;1m  76.92[0m | [33;1m      50[0m | [33;1m  66.66[0m | [33;1m  76.92[0m | [31;1m34,72-80                                                                                                                                                                                [0m 
+[32;1m  resolve.ts                      [0m | [32;1m  80.89[0m | [32;1m   83.33[0m | [33;1m     60[0m | [32;1m  80.89[0m | [31;1m81,104,128,137,144,179,236,243,263-267,274-291                                                                                                                                          [0m 
+[32;1m  stack-trace.ts                  [0m | [32;1m  91.66[0m | [33;1m      75[0m | [32;1m    100[0m | [32;1m  91.66[0m | [31;1m20                                                                                                                                                                                      [0m 
+[33;1m  token-map.ts                    [0m | [33;1m  71.08[0m | [31;1m   43.33[0m | [32;1m  86.36[0m | [33;1m  71.08[0m | [31;1m117-152,173,183,187,191,204                                                                                                                                                             [0m 
+[32;1m lib/validations                  [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  validate-binary-version.ts      [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  validate-provider-presence.ts   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  validate-terraform-version.ts   [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m test/helper                      [0m | [32;1m  89.79[0m | [32;1m   91.66[0m | [32;1m  82.35[0m | [32;1m  89.79[0m | [31;1m                                                                                                                                                                                        [0m 
+[32;1m  data-source.ts                  [0m | [32;1m  94.44[0m | [32;1m     100[0m | [32;1m   90.9[0m | [32;1m  94.44[0m | [31;1m72                                                                                                                                                                                      [0m 
+[32;1m  index.ts                        [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                                                                                                                                                                                        [0m 
+[32;1m  module.ts                       [0m | [32;1m     90[0m | [32;1m     100[0m | [32;1m     80[0m | [32;1m     90[0m | [31;1m25                                                                                                                                                                                      [0m 
+[32;1m  provider.ts                     [0m | [32;1m  86.95[0m | [32;1m    87.5[0m | [32;1m     80[0m | [32;1m  86.95[0m | [31;1m46,79,91                                                                                                                                                                                [0m 
+[32;1m  resource.ts                     [0m | [32;1m  88.63[0m | [32;1m     100[0m | [32;1m     80[0m | [32;1m  88.63[0m | [31;1m65-66,100-101,121                                                                                                                                                                       [0m 
+-----------------------------------|---------|----------|---------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[1mSummary of all failing tests[22m
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mlib/testing/__tests__/[22m[1mmatchers.test.ts[22m ([0m[1m[41m5.8 s[49m[22m[0m)
+[1m[31m  [1m● [22m[1mmatchers › toPlanSuccessfully › succeeds if the terraform config passed is valid[39m[22m
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+    Received: [31mfalse[39m
+[2m[22m
+[2m    [0m [90m 325 |[39m       [36mconst[39m res [33m=[39m toPlanSuccessfully([33mTesting[39m[33m.[39mfullSynth(stack))[33m;[39m[22m
+[2m     [90m 326 |[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 327 |[39m       expect(res[33m.[39mpass)[33m.[39mtoBeTruthy()[33m;[39m[22m
+[2m     [90m     |[39m                        [31m[1m^[22m[2m[39m[22m
+[2m     [90m 328 |[39m       expect(res[33m.[39mmessage)[33m.[39mtoMatchInlineSnapshot([22m
+[2m     [90m 329 |[39m         [32m`"Expected subject not to plan successfully"`[39m[33m,[39m[22m
+[2m     [90m 330 |[39m       )[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36mlib/testing/__tests__/matchers.test.ts[39m[0m[2m:327:24)[22m[2m[22m
+
+
+[1mTest Suites: [22m[1m[31m1 failed[39m[22m, [1m[32m36 passed[39m[22m, 37 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, [1m[32m385 passed[39m[22m, 386 total
+[1mSnapshots:   [22m[1m[32m266 passed[39m[22m, 266 total
+[1mTime:[22m        25.995 s, estimated 28 s
+[2mRan all test suites[22m[2m.[22m
+[2K[1G[31merror[39m Command failed with exit code 1.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+
+> @cdktn/provider-generator:test
+
+[2K[1G[33mwarning[39m package.json: "dependencies" has dependency "@types/node" with range "18.19.101" that collides with a dependency in "devDependencies" of the same name with version "20.19.37"
+[2K[1G[2m$ jest[22m
+(node:20495) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mempty-provider-resources.test.ts[22m
+(node:20492) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mdeep-nested-attributes.test.ts[22m
+(node:20486) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mprovider.test.ts[22m
+(node:20491) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/[22m[1mconstructs-maker.test.ts[22m
+(node:20489) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mresource-types.test.ts[22m
+(node:20490) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mdescription-escaping.test.ts[22m
+(node:20493) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mnested-types.test.ts[22m
+(node:20494) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mcomplex-computed-types.test.ts[22m
+(node:20487) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/__tests__/[22m[1medge-provider-schema.test.ts[22m
+(node:20488) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mskipped-attributes.test.ts[22m
+(node:20485) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mtypes.test.ts[22m
+(node:20484) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mexport-sharding.test.ts[22m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:00.780] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:00.781] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:01.071] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:01.071] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:06.288] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:06.289] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:06.289] [ERROR] default - [39m[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:06.289] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+(node:22020) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[91m[2026-04-15T20:19:06.705] [ERROR] default - [39m(node:22020) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+(node:20483) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mmodule-generator.test.ts[22m ([0m[1m[41m14.252 s[49m[22m[0m)
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:10.709] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:10.710] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:10.919] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:10.919] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:11.162] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:11.163] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+
+[91m[2026-04-15T20:19:11.163] [ERROR] default - [39m[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+
+[91m[2026-04-15T20:19:11.163] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:11.356] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:11.356] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:16.327] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+(node:22234) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[91m[2026-04-15T20:19:16.685] [ERROR] default - [39m(node:22234) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:21.000] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:21.000] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:21.001] [ERROR] default - [39m[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:21.208] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:21.208] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:22.177] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:22.177] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+
+[91m[2026-04-15T20:19:22.177] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:22.239] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:22.239] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+
+[91m[2026-04-15T20:19:22.239] [ERROR] default - [39m[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+(node:22352) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:22353) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[91m[2026-04-15T20:19:22.521] [ERROR] default - [39m(node:22352) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[91m[2026-04-15T20:19:22.577] [ERROR] default - [39m(node:22353) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mIncompatible provider version[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mProvider registry.terraform.io/runelab/bitbucket v2.1.0 does not have a
+[31m│[0m [0mpackage available for your current platform, darwin_arm64.
+[31m│[0m [0m
+[31m│[0m [0mProvider releases are separate from Terraform CLI releases, so not all
+[31m│[0m [0mproviders are available for all platforms. Other versions of this provider
+[31m│[0m [0mmay have different platforms supported.
+[31m╵[0m[0m
+(node:20481) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mlib/__tests__/[22m[1mprovider.test.ts[22m ([0m[1m[41m30.742 s[49m[22m[0m)
+[1m[31m  [1m● [22m[1mProvider › generates constructs for two providers with same name[39m[22m
+
+    non-zero exit code 1
+[2m[22m
+[2m    [0m [90m 143 |[39m     child[33m.[39monce([32m"close"[39m[33m,[39m (code[33m:[39m number) [33m=>[39m {[22m
+[2m     [90m 144 |[39m       [36mif[39m (code [33m!==[39m [35m0[39m) {[22m
+[2m    [31m[1m>[22m[2m[39m[90m 145 |[39m         [36mconst[39m error [33m=[39m [36mnew[39m [33mError[39m([32m`non-zero exit code ${code}`[39m)[33m;[39m[22m
+[2m     [90m     |[39m                       [31m[1m^[22m[2m[39m[22m
+[2m     [90m 146 |[39m         (error [36mas[39m any)[33m.[39mstderr [33m=[39m err[33m.[39mmap((chunk) [33m=>[39m chunk[33m.[39mtoString())[33m.[39mjoin([32m""[39m)[33m;[39m[22m
+[2m     [90m 147 |[39m         [36mreturn[39m ko(error)[33m;[39m[22m
+[2m     [90m 148 |[39m       }[0m[22m
+[2m[22m
+[2m      [2mat ChildProcess.<anonymous> ([22m[2m../commons/src/util.ts[2m:145:23)[22m[2m[22m
+
+[91m[2026-04-15T20:19:23.569] [ERROR] default - [39m[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mIncompatible provider version[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mProvider registry.terraform.io/runelab/bitbucket v2.1.0 does not have a
+[31m│[0m [0mpackage available for your current platform, darwin_arm64.
+[31m│[0m [0m
+[31m│[0m [0mProvider releases are separate from Terraform CLI releases, so not all
+[31m│[0m [0mproviders are available for all platforms. Other versions of this provider
+[31m│[0m [0mmay have different platforms supported.
+[31m╵[0m[0m
+
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mIncompatible provider version[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mProvider registry.terraform.io/aeirola/bitbucket v2.0.2 does not have a
+[31m│[0m [0mpackage available for your current platform, darwin_arm64.
+[31m│[0m [0m
+[31m│[0m [0mProvider releases are separate from Terraform CLI releases, so not all
+[31m│[0m [0mproviders are available for all platforms. Other versions of this provider
+[31m│[0m [0mmay have different platforms supported.
+[31m╵[0m[0m
+[91m[2026-04-15T20:19:23.704] [ERROR] default - [39m[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mIncompatible provider version[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mProvider registry.terraform.io/aeirola/bitbucket v2.0.2 does not have a
+[31m│[0m [0mpackage available for your current platform, darwin_arm64.
+[31m│[0m [0m
+[31m│[0m [0mProvider releases are separate from Terraform CLI releases, so not all
+[31m│[0m [0mproviders are available for all platforms. Other versions of this provider
+[31m│[0m [0mmay have different platforms supported.
+[31m╵[0m[0m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:28.353] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:28.353] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:28.353] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:28.553] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:28.553] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:39.172] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+(node:22546) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[91m[2026-04-15T20:19:39.503] [ERROR] default - [39m(node:22546) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:19:45.296] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+[91m[2026-04-15T20:19:45.500] [ERROR] default - [39m[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[91m[2026-04-15T20:19:45.500] [ERROR] default - [39m[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!  The 5.8 release line of jsii has reached End-of-Support.                                           !![22m[39m[49m
+[41m[37m[1m!!  We strongly recommend you upgrade to the current release line (5.9) at your earliest convenience.  !![22m[39m[49m
+[41m[37m[1m!!                                                                                                     !![22m[39m[49m
+[41m[37m[1m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![22m[39m[49m
+
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!  This software has not been tested with node v25.9.0.                                                                !![39m[49m
+[43m[30m!!  Should you encounter odd runtime issues, please try using one of the supported release before filing a bug report.  !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!  This software is currently running on node v25.9.0.                                                                 !![39m[49m
+
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!  As of the current release of this software, supported node releases are:                                            !![39m[49m
+[43m[30m!!  - ^22.0.0 (Planned end-of-life: 2027-04-30)                                                                         !![39m[49m
+[43m[30m!!  - ^20.0.0 (Planned end-of-life: 2026-04-30) [DEPRECATED]                                                            !![39m[49m
+
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!                                                                                                                      !![39m[49m
+
+[91m[2026-04-15T20:20:01.490] [ERROR] default - [39m[43m[30m!!  This warning can be silenced by setting the JSII_SILENCE_WARNING_UNTESTED_NODE_VERSION environment variable.        !![39m[49m
+[43m[30m!!                                                                                                                      !![39m[49m
+[43m[30m!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![39m[49m
+
+(node:22739) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[91m[2026-04-15T20:20:01.829] [ERROR] default - [39m(node:22739) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+(node:20482) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mlib/get/__tests__/generator/[22m[1mversions-file.test.ts[22m ([0m[1m[41m76.056 s[49m[22m[0m)
+
+[1mTest Suites: [22m[1m[31m1 failed[39m[22m, [1m[32m14 passed[39m[22m, 15 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, [1m[32m68 passed[39m[22m, 69 total
+[1mSnapshots:   [22m[1m[32m78 passed[39m[22m, 78 total
+[1mTime:[22m        76.6 s, estimated 79 s
+[2mRan all test suites[22m[2m.[22m
+[2K[1G[31merror[39m Command failed with exit code 1.
+[2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+
+
+
+ Lerna (powered by Nx)   Running target test for 9 projects failed
+
+Tasks not run because their dependencies failed or --nx-bail=true:
+
+- @cdktn/cli-core:test
+- @cdktn/hcl-tools:test
+- @cdktn/hcl2cdk:test
+- cdktn-cli:test
+
+Failed tasks:
+
+- cdktn:test
+- @cdktn/provider-generator:test
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
